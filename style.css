@@ -1,0 +1,155 @@
+.container{
+    background-image: url("back.jpg");
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.container .header{
+    margin: 10px auto;
+    width: 90%;
+    background: #7a1a7a;
+    padding: 10px ;
+    text-align: center;
+    border-radius: 5px ;
+    border: solid 1px white;
+
+}
+.container .menu{
+    border: solid 1px white;
+    border-radius: 5px ;
+    width: 91%;
+    margin: 10px auto;
+    background: black;
+}
+
+.container .menu ul{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.container .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding :10px;
+}
+.container .menu a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+.container .menu a:hover{
+    color: rgb(240, 232, 81);
+    
+
+}
+.container .badan .sidebar ul li{
+    list-style-type: none;
+    padding-top:5px;
+    text-transform: capitalize;
+    
+}
+.container .badan .sidebar a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.container .badan .sidebar a:hover{
+    text-transform: uppercase;
+    color: rgb(251, 224, 47);
+}
+.container .badan .leftside ul li{
+    list-style-type: none;
+    padding-top:5px;
+    text-transform: capitalize;
+    
+}
+.container .badan .leftside a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.container .badan .le a:hover{
+    text-transform: uppercase;
+    color: rgb(251, 224, 47);
+}
+.clear{
+    clear: both;
+}
+.badan{
+    margin: auto;
+    width: 91%;
+    height: 400px;
+}
+.container .badan .sidebar{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.container .badan .content{
+    float: left;
+    height: 102.5%;
+    width: 48.3%;
+    margin: 0 10px ;
+}
+.leftside {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+h4{
+    margin-left: 20px;
+}
+p{
+    font-size: large;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.container .footer{
+    color: aliceblue;
+    width: 89.5%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(7, 7, 7);
+    margin: 35px auto ;
+
+    border-radius: 5px ;
+    border: solid 1px white;
+
+}
+.badan .sidebar .card{
+    background: rgb(19, 35, 98) ;
+    height: 53%;
+    border-radius: 5px ;
+    border: solid 1px white;
+}
+.badan .content .card{
+    background: rgb(197, 136, 13);
+    height: 106%;
+    width: 100%;
+    border-radius: 5px ;
+    border: solid 1px white;
+}
+.badan .leftside .card{
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px ;
+    border: solid 1px white;
+    
+}
+.card{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+span{
+    align-self: center;
+}

@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web ajib</title>
+</head>
+<body>
+    <div class="container" >
+        <div class="header">
+           <h3 style="text-transform: uppercase; color: aliceblue;">header</h3>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="">home</a>
+                    <a href="">web developer</a>
+                    <a href="">web design</a>
+                    <a href="">tutorial</a>
+                    <a href="">tips & trik  </a>
+                    <a href="">news</a>
+                    <a href="">inspiration</a>
+                    <a href="">grafik design</a>
+                    <a href="">comment</a> 
+                </li>
+            </ul>
+        </div>
+        <div class="badan">
+            <div class="sidebar">
+                 <div class="card" style="margin-bottom: 10px;"> <span>LOGIN</span></div> 
+                 <div class="card"><span>JUMLAH PENGUNJUNG</span></div>                     
+            </div>
+            <div class="content">
+                 <div class="card">    <div>
+                    <style>input,label {display: flex; margin-bottom: 15px;}</style>
+                    <h1>Penjumlahan dengan Javascript</h1>
+                    <form  action="" name="form">
+                    <label for="angka1">Angka 1</label>
+                    <input type="text" name="angka1" id="angka1">
+                    <label for="angka2">Angka 2</label>
+                    <input type="text" name="angka2" id="angka2">
+                    <label for="hasil">Hasilnya</label>
+                    <input type="text" readonly name="hasil" id="hasil"></form>
+                    <input type="button" value="+" onclick="tambah()">
+                    <script>
+                         function Cek() {
+                    if (form.angka1.value == "" || form.angka2.value == "") {
+                      alert("anda belum memasukan angka");
+                    }
+                  }
+                  function tambah() {
+                    Cek();
+                    a = eval(form.angka1.value);
+                    b = eval(form.angka2.value);
+                    c = a + b;
+                    console.log(c);
+                    form.hasil.value = c;
+                
+                  }
+                
+                    </script>
+                   </div> </div>                     
+
+            </div>
+            <div class="leftside">
+                 <div class="card"><span>SIDEBAR1</span> </div>                     
+                 <div class="card"><span>SIDEBAR2</span> </div>                     
+                 <div class="card"><span>SIDEBAR3</span> </div>                     
+                 <div class="card"><span>SIDEBAR4</span> </div>                     
+          
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">@ajib abdul kholiq</div>
+
+    </div>
+</body>
+</html>
