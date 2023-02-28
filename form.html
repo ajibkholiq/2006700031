@@ -11,16 +11,16 @@
     <div style="width: 400px; margin: auto; border: 1px solid; padding-left:20px ; border-radius: 10px;">
     <h1 style="text-align: center; margin-bottom: 40px;">Buat Akun baru </h1>
     <p style="text-transform: capitalize;"><b>sign Up form</b> </p>
-<form action="welcome" method="post" name="form">
+<form action="welcome" name="form">
     <label for="nama1">First Name :</label>
     <input class="flex" type="text" id="nama1">
     <label for="nama2">Last Name :</label>
     <input class="flex" type="text" id="nama2">
     <label for="gender">Gender</label>
-    <span class="flex" style="margin:0"><input type="radio" name="gender" id="gender">Male </span>
-    <span class="flex"><input type="radio" name="gender" id="gender">Female </span>
+    <span class="flex" style="margin:0"><input type="radio" id="gender">Male </span>
+    <span class="flex"><input type="radio" id="gender">Female </span>
     <label for="Nationaly">Nationaly</label>
-    <select class="flex" name="nationaly" id="Nationaly">
+    <select class="flex" id="Nationaly">
         <option value="indonesia">Indonesia</option>
         <option value="malaysia">malaysia</option>
         <option value="singapura">Singapura</option>
@@ -28,12 +28,12 @@
         <option value="spanyol">Spayol</option>
     </select>
     <label for="Languange">Languange Spoken </label>
-    <span class="flex"style="margin:0"><input type="checkbox" name="Indonesia" id="Languange">Indonesia </span>
-    <span class="flex"style="margin:0"><input type="checkbox" name="English" id="Languange">English </span>
-    <span class="flex"><input type="checkbox" name="Other" id="Languange">Other </span>
+    <span class="flex"style="margin:0"><input type="checkbox"  id="Languange">Indonesia </span>
+    <span class="flex"style="margin:0"><input type="checkbox"  id="Languange">English </span>
+    <span class="flex"><input type="checkbox"  id="Languange">Other </span>
 
     <label class="flex" for="Bio">Bio</label>
-    <textarea name="bio" id="Bio" cols="48" rows="10"></textarea>
+    <textarea  id="Bio" cols="48" rows="10"></textarea>
     <br>    
     <input style="position: relative; left: 310px; margin-bottom: 30px;" type="submit" value="Sign Up">
 </div>
